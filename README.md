@@ -1,6 +1,6 @@
 # Datacamp M2DSSAF - Groupe iiens 
 Les points hebdomadaires se feront sur le readme.
-Ce readme est organisé selon des dates qui trace l'évolution de notre travail. 
+Ce readme est organisé selon des itérations qui trace l'évolution de notre travail. 
 Un rapport qui résume notre travail sur le challenge et nos résultats sera rédigé à la fin du projet.
 
 
@@ -43,3 +43,63 @@ Lorsque le module est au point et a été epprouvé par l'ensemble de l'équipe,
 * git branch -d nom_branche (si vous ne vous en servez plus)
 
 Sinon, il faut régler les conflits soit ensemble ou seul (si vous vous en sentez capable).
+
+----------------------------------------------------------------------------------------------------------------------------
+## Bilan de l'itération 0: (Date de présentation du datacamp - 01/02/2019)
+Rapport rédigé par: Othman FAIQ
+
+### Évènements 
+*Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*
+> Création de l'équipe et configuratios des outils de travail (github, slack, kaggle ..)
+> Une discution entre les membres de l'équipe sur le choix du langage: Mounia et Othman pour Python et Célestin pour R. On s'est mis d'accord de travailler chacun de son coté avec le langage qu'il préfère (dans un premier temps)
+> Importation des données et premiers analyses statistiques. Dans un premier temps on a fait tourner un algorithme de régression linéaire sur le dataset train.csv. 
+
+### Rétrospective de l'itération précédente et axes d'améliorations:
+
+### Objectifs pour la prochaine itération:
+> Création des répertoires de travail sur github selon l'organisation proposé par le prof (voir photo sur slack)
+> Décider un choix final pour le langage utilisé 
+> Définir des taches et les affecter aux membres de l'équipe
+
+
+----------------------------------------------------------------------------------------------------------------------------
+## Bilan de l'itération 1: (Du 01/02/2019 au -)
+Rapport rédigé par: ---
+
+### Évènements 
+*Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*
+> 
+> 
+>  
+
+### Rétrospective de l'itération précédente et axes d'améliorations:
+>
+>
+
+### Objectifs pour la prochaine itération:
+> 
+> 
+> 
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+## Bilan de l'itération 2: (Du - au -)
+Rapport rédigé par: ---
+
+### Évènements 
+*Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*
+> 
+> 
+>  
+
+### Rétrospective de l'itération précédente et axes d'améliorations:
+>
+>
+
+### Objectifs pour la prochaine itération:
+> 
+> 
+> 
+
