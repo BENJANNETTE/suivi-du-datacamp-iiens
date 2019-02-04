@@ -8,7 +8,7 @@ Un rapport qui résume notre travail sur le challenge et nos résultats sera ré
 
 | Nom                     | Prénom                   | Email                   |
 | -------------           |-------------             |-------------            |
-| EL ETTAOUI                   | Mounia           |    elattaouimounia@hotmail.com           |
+| EL ATTAOUI                   | Mounia           |    elattaouimounia@hotmail.com           |
 | CAUMES                | Celestin                | celestincaumes@gmail.com                 |
 | FAIQ                  | Othman                 | othmane.faiq@gmail.com                 |
 
