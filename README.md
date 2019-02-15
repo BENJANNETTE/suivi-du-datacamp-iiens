@@ -68,24 +68,25 @@ Rapport rédigé par: Celestin CAUMES
 
 ### Évènements 
 *Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*
-> Nous avons choisi les 2 languages R et python car Mounia & Othmane sont plus à l'aise avec Python et Celestin est plus à l'aise avec R.
-> Nous avons créer un dossier Iteration 2 avec le notebook de l'importation des données et de la Regression Logistique sous Python
-> Nous avons également crée un Script R pour la regression Logistique et nous avons fait une premiere soumission
-> 1ere Submission : Regression Logistique Simple sur les données initiales => Place 3620 & Score=3.930
+Nous avons choisi les 2 languages R et python car Mounia & Othmane sont plus à l'aise avec Python et Celestin est plus à l'aise avec R.    
+Nous avons créer un dossier Iteration 2 avec le notebook de l'importation des données et de la Regression Logistique sous Python.   
+Nous avons également crée un Script R pour la regression Logistique et nous avons fait une premiere soumission.   
+1ere Submission : Regression Logistique Simple sur les données initiales => Place 3620 & Score=3.930.   
+2eme Submission : Regression Logistique avec selection de variable suivant test de Student, grâce au "summary()" de R => Place 3620 & Score=3.930 (pas d'amelioration).   
 
 
 ### Score Final sur l'iteration
-> Place 3620 & Score=3.930
+Place 3620 & Score=3.930.    
 
 
 ### Rétrospective de l'itération précédente et axes d'améliorations:
-> Mieux indexer les fichiers dans le Git
->
+Mieux indexer les fichiers dans le Git.    
+
 
 ### Objectifs pour la prochaine itération:
-> Continuer a chercher des méthodes afin d'améliorer notre score Kaggle
-> 
-> 
+Continuer a chercher des méthodes afin d'améliorer notre score Kaggle.    
+ 
+ 
 
 
 
