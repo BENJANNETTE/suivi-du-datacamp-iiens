@@ -92,7 +92,7 @@ Continuer a chercher des méthodes afin d'améliorer notre score Kaggle.
 
 
 ----------------------------------------------------------------------------------------------------------------------------
-## Bilan de l'itération 2: (Du 15/02/2019 au -)
+## Bilan de l'itération 3: (Du 15/02/2019 au -)
 Rapport rédigé par: ---
 
 ### Évènements 
@@ -109,4 +109,28 @@ Rapport rédigé par: ---
 > 
 > 
 > 
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+## Bilan de l'itération 4: (- au -)
+Rapport rédigé par: ---
+
+### Évènements 
+*Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*.    
+>      
+> 
+>  
+
+### Rétrospective de l'itération précédente et axes d'améliorations:
+> T
+>
+
+### Objectifs pour la prochaine itération:
+> 
+> 
+> 
+
 
