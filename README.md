@@ -97,12 +97,12 @@ Rapport rédigé par: ---
 
 ### Évènements 
 *Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*.    
-> 
+> Nous avons utilisé le Spark R afin d'importer et croiser les tous les fichiers afin de poser des modèles sur plus de variables explicatives. Nous avons utilisé le Spark R car les fichiers historical_transactions et new_merchant_transactions sont très volumineux (~1Go).      
 > 
 >  
 
 ### Rétrospective de l'itération précédente et axes d'améliorations:
->
+> Trouver une solution pour les fichiers volumineux ?? => Spark R et PySpark
 >
 
 ### Objectifs pour la prochaine itération:
