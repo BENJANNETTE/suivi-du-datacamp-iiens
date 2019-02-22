@@ -71,8 +71,8 @@ Rapport rédigé par: Celestin CAUMES
 > Nous avons choisi les 2 languages R et python car Mounia & Othmane sont plus à l'aise avec Python et Celestin est plus à l'aise avec R.    
 > Nous avons créé un dossier Iteration 2 avec le notebook de l'importation des données et de la Regression Logistique sous Python.   
 > Nous avons également crée un Script R pour la regression Logistique et nous avons fait une premiere soumission.   
-> 1ere Submission : Regression Logistique Simple sur les données initiales => Place 3620 & Score=3.930.   
-> 2eme Submission : Regression Logistique avec selection de variable suivant test de Student, grâce au "summary()" de R => Place 3620 & Score=3.930 (pas d'amelioration).   
+> 1ere Submission : Regression GLM Simple sur les données initiales => Place 3620 & Score=3.930.   
+> 2eme Submission : Regression GLM avec selection de variable suivant test de Student, grâce au "summary()" de R => Place 3620 & Score=3.930 (pas d'amelioration).   
 
 
 ### Score Final sur l'iteration
@@ -96,10 +96,12 @@ Continuer a chercher des méthodes afin d'améliorer notre score Kaggle.
 Rapport rédigé par: ---
 
 ### Évènements 
-*Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*.    
-> Nous avons utilisé le Spark R afin d'importer et croiser les tous les fichiers afin de poser des modèles sur plus de variables explicatives. Nous avons utilisé le Spark R car les fichiers historical_transactions et new_merchant_transactions sont très volumineux (~1Go).      
-> 
->  
+*Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*.     
+> Nous avons utilisé le Spark R afin d'importer et croiser les tous les fichiers afin de poser des modèles sur plus de variables explicatives. Nous avons utilisé le Spark R car les fichiers historical_transactions et new_merchant_transactions sont très volumineux (~1Go).       
+> Nous avons créé une méthode de prédiction suivant les données train.csv et test.csv : Nous sommes partis du principe que les variables "feature_x" sont qualitatives et non pas quantitatives comme pour GLM. Nous avons créé des fonctions R qui simulent toutes les combinaisons possibles des modalités des variables "feature_x", ensuite elles calcule la valeur moyenne de "target" pour chaque combinaisons de modalité. Puis on prédit sur test.csv.    
+> 1ere Submission: Moyenne de "target" suivant les modalités => Place 3735 & Score=3.930.      
+> 2eme Submission: Moyenne positive et negative de "target"  suivant les modalités, puis on a choisi suivant le nombre de valeurs positives ou negatives. => Place +3735 & Score=4.183. (Score plus faible).     
+
 
 ### Rétrospective de l'itération précédente et axes d'améliorations:
 > Trouver une solution pour les fichiers volumineux ?? => Spark R et PySpark
