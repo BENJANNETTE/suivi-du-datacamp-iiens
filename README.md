@@ -100,7 +100,12 @@ Rapport rédigé par: ---
 > Nous avons utilisé le Spark R afin d'importer et croiser les tous les fichiers afin de poser des modèles sur plus de variables explicatives. Nous avons utilisé le Spark R car les fichiers historical_transactions et new_merchant_transactions sont très volumineux (~1Go).       
 > Nous avons créé une méthode de prédiction suivant les données train.csv et test.csv : Nous sommes partis du principe que les variables "feature_x" sont qualitatives et non pas quantitatives comme pour GLM. Nous avons créé des fonctions R qui simulent toutes les combinaisons possibles des modalités des variables "feature_x", ensuite elles calcule la valeur moyenne de "target" pour chaque combinaisons de modalité. Puis on prédit sur test.csv.    
 > 1ere Submission: Moyenne de "target" suivant les modalités => Place 3735 & Score=3.930.      
-> 2eme Submission: Moyenne positive et negative de "target"  suivant les modalités, puis on a choisi suivant le nombre de valeurs positives ou negatives. => Place +3735 & Score=4.183. (Score plus faible).     
+> 2eme Submission: Moyenne positive et negative de "target"  suivant les modalités, puis on a choisi suivant le nombre de valeurs positives ou negatives. => Place +3735 & Score=4.183. (Score plus faible).       
+> Nous avons choisi de croiser les tables "train" et "test" avec la table "new_merchant" et on a ajouté a "train" et "test" la variable Category_3 afin d'essayer d'améliorer les scores precedent. Nous avons choisi cette variable arbitrairement pour tester notre code.      
+> 3eme Submission: Moyenne de "target" suivant les modalités => Score=3.935.       
+> 4eme Submission: Moyenne positive et negative de "target" => Score=3.994.     
+>
+
 
 
 ### Rétrospective de l'itération précédente et axes d'améliorations:
